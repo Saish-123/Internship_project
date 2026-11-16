@@ -1,0 +1,17 @@
+{
+  "name": "Mumbai Express Freight (MEF)",
+  "short_name": "MEF Logistics",
+  "description": "Real-time shipment tracking, hub operations, and proof-of-delivery management for Mumbai Metropolitan Region",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#D97706",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

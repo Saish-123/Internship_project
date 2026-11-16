@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mumbai Express Freight - Enterprise Responsive Shipment Tracking, Hub Operations & Proof of Delivery Portal" />
+    <meta name="theme-color" content="#d97706" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <title>Mumbai Express Freight | Logistics &amp; Proof-of-Delivery</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {
+            // SW registration silent failover for dev environments
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+{
+  "shipments": [
+    {
+      "id": "MFX-2026-BHW-08942",
+      "lrNumber": "LR-MH-98124",
+      "ewayBillNumber": "541098234190",
+      "status": "In Transit",
+      "priority": "Express",
+      "originHub": "Bhiwandi Central SuperHub",
+      "destinationHub": "Pune Chakan Auto Cluster Link",
+      "currentLocation": "Khalapur Toll Plaza, Mumbai-Pune Expressway",
+      "createdAt": "2026-11-15T08:30:00Z",
+      "estimatedDelivery": "2026-11-16T18:00:00Z",
+      "consignor": {
+        "companyName": "Mahindra Logistics Hub & Spares",
+        "contactPerson": "Rajesh S. Patil",
+        "phone": "+91 98201 44821",
+        "email": "rpatil@mahindraspares.example.com",
+        "address": "Godown No. 14, Mankoli Logistics Park, Mumbai-Nashik Road",
+        "city": "Bhiwandi, Thane",
+        "pincode": "421302",
+        "gstin": "27AABCM8291Q1ZP"
+      },
+      "consignee": {
+        "companyName": "Bajaj Auto Stamping & Assembly Plant",
+        "contactPerson": "Suresh Deshmukh",
+        "phone": "+91 98450 11923",
+        "email": "sdeshmukh@bajajauto.example.com",
+        "address": "Plot B-12, MIDC Chakan Phase 2, Industrial Area",
+        "city": "Pune",
+        "pincode": "410501",
+        "gstin": "27AAACB2201P1ZS"
+      },
+      "cargo": {
+        "items": [
+          {
+            "id": "item-1",
+            "description": "Engine Gearbox Assemblies and Flange Castings",
+            "quantity": 24,
+            "packageType": "Wooden Crates",
+            "weightKg": 4800,
+            "declaredValueInr": 1850000
+          }
+        ],
+        "totalWeightKg": 4800,
+        "goodsType": "Automotive Precision Assemblies"
+      },
+      "driver": {
+        "name": "Tukaram Shantaram More",
+        "phone": "+91 98692 33109",
+        "licenseNumber": "MH-04-2015-0081294",
+        "vehicleNumber": "MH-04-GP-8291",
+        "truckModel": "BharatBenz 2823C Heavy Hauler (6x4)"
+      },
+      "freightAmountInr": 42500,
+      "gstAmountInr": 5100
+    }
+  ],
+  "hubs": [
+    "Bhiwandi Central SuperHub",
+    "JNPT Port Container Terminal CFS",
+    "Vashi APMC Agro-Logistics Yard",
+    "Taloja MIDC Industrial Hub",
+    "Andheri MIDC Distribution Hub",
+    "Pune Chakan Auto Cluster Link",
+    "Thane Industrial Hub"
+  ]
+}
